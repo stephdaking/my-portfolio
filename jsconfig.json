@@ -1,0 +1,69 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"target": "ES2020",
+		"jsx": "preserve",
+		"strictNullChecks": true,
+		"strictFunctionTypes": true
+	},
+	"exclude": ["node_modules", "**/node_modules/*"],
+	"workbench.colorTheme": "Default Dark+",
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"liveServer.settings.donotShowInfoMsg": true,
+	"workbench.startupEditor": "none",
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.formatOnSave": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.singleQuote": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.trailingComma": "none",
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"react-native-tools.networkInspector.consoleLogsColorTheme": "Dark",
+	"files.associations": {
+		"*.jsx": "javascriptreact"
+	},
+	"git.enableSmartCommit": true,
+	"git.confirmSync": false,
+	"prettier.semi": false,
+	"auto-close-tag.activationOnLanguage": [
+		"xml",
+		"php",
+		"blade",
+		"ejs",
+		"jinja",
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact",
+		"plaintext",
+		"markdown",
+		"vue",
+		"liquid",
+		"erb",
+		"lang-cfml",
+		"cfml",
+		"HTML (EEx)",
+		"HTML (Eex)",
+		"plist"
+	],
+	"prettier.jsxBracketSameLine": true,
+	"javascript.format.semicolons": "remove",
+	"editor.fontLigatures": false,
+	"javascript.format.semicolons": "remove",
+	"typescript.format.semicolons": "remove",
+	"typescriptHero.imports.insertSemicolons": false,
+	"json.schemas": [
+		{
+			"fileMatch": ["/myfile"],
+			"url": "schemaURL"
+		}
+	]
+}
